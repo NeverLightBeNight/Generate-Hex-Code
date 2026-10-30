@@ -5,11 +5,6 @@ class GenerateHex {
     hexText: document.querySelectorAll("[data-js-hex-text]"),
   };
 
-  #limit = {
-    maxLimit: 1_000_000,
-    minLimit: 100_000,
-  };
-
   #maxHex = 0xffffff;
 
   #createRandomHex() {
