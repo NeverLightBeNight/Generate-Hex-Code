@@ -3,34 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <article class="color-bage">
-        <div class="color-bage__bgc"></div>
-        <p class="color-bage__hex"></p>
-      </article>
-      <article class="color-bage">
-        <div class="color-bage__bgc"></div>
-        <p class="color-bage__hex"></p>
-      </article>
-      <article class="color-bage">
-        <div class="color-bage__bgc"></div>
-        <p class="color-bage__hex"></p>
-      </article>
-      <article class="color-bage">
-        <div class="color-bage__bgc"></div>
-        <p class="color-bage__hex"></p>
-      </article>
-      <article class="color-bage">
-        <div class="color-bage__bgc"></div>
-        <p class="color-bage__hex"></p>
-      </article>
+      <main class="container__bage">
+        <article class="color-bage">
+          <div class="color-bage__bgc" data-js-hex-bg></div>
+          <p class="color-bage__hex" data-js-hex-text></p>
+        </article>
+        <article class="color-bage">
+          <div class="color-bage__bgc" data-js-hex-bg></div>
+          <p class="color-bage__hex" data-js-hex-text></p>
+        </article>
+        <article class="color-bage">
+          <div class="color-bage__bgc" data-js-hex-bg></div>
+          <p class="color-bage__hex" data-js-hex-text></p>
+        </article>
+        <article class="color-bage">
+          <div class="color-bage__bgc" data-js-hex-bg></div>
+          <p class="color-bage__hex" data-js-hex-text></p>
+        </article>
+        <article class="color-bage">
+          <div class="color-bage__bgc" data-js-hex-bg></div>
+          <p class="color-bage__hex" data-js-hex-text></p>
+        </article>
+      </main>
       <section class="container-generate">
         <h1 class="container-generate-h1">Generate color</h1>
-        <button class="container-generate-button">Generating code</button>
+        <button class="container-generate-button" data-js-generate>
+          Generating code
+        </button>
       </section>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
